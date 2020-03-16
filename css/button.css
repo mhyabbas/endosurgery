@@ -1,0 +1,32 @@
+.btn {
+	position: relative;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 2px;
+	margin-right: 2px;
+	padding: 10px 40px;
+	background-color: #1C1B1B;
+	border: 1px solid #1C1B1B;
+	color: white;
+	text-decoration: none;
+	transition: all .4s;
+	vertical-align: middle;
+}
+
+.btn:hover {
+	background-color: white;
+	border-color: #1C1B1B;
+	color: #1C1B1B;
+}
+
+.btn.btn-pink {
+	background-color: #F1B8AB;
+	border-color: #F1B8AB;	
+}
+
+.btn.btn-pink:hover {
+	background-color: #1C1B1B;
+	border-color: #1C1B1B;
+	color: white;
+}

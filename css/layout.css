@@ -1,0 +1,56 @@
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.column {
+    padding: 30px;
+}
+
+.bg-beige {
+    background-color: #F8F5F0;
+}
+
+@media all and (min-width: 800px) {
+    .container {
+        width: 740px;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: -10px;
+    }
+
+    .column {
+        flex-basis: 100%;
+        flex: 1;
+        margin: 10px;
+    }
+
+    .column.order-1 {
+        order: 1;
+    }
+
+    .column.order-2 {
+        order: 2;
+    }
+
+    .column.double {
+        flex: 2;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .container {
+        width: 1140px;
+    }
+}

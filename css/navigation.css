@@ -1,0 +1,104 @@
+.nav {
+  background: #F8F5F0;
+}
+
+.nav ul {
+  list-style: none;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  padding: 15px 25px;
+}
+
+.nav a {
+  color: #1C1B1B;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav .toggle a {
+  display: flex;
+  align-items: center;
+}
+
+.nav .toggle svg {
+  width: 35px;
+  height: 35px;
+  fill: #1C1B1B;
+}
+
+.nav .toggle svg.toggle-close {
+  display: none;
+}
+
+.nav .logo img {
+  width: 170px;
+  height: auto;
+}
+
+.nav .item {
+  display: none;
+  width: 100%;
+}
+
+.nav .item.active {
+  display: flex;
+}
+
+@media all and (min-width: 800px) {
+
+  .nav ul {
+    justify-content: center;
+  }
+
+  .nav li {
+    padding: 15px 5px;
+  }
+
+  .nav a {
+    color: #1C1B1B;
+  }
+
+  .nav .toggle {
+    display: none;
+  }
+
+  .nav .logo {
+    flex: 1 0 auto;
+  }
+
+  .nav .logo img {
+     width: 180px;
+  }
+
+  .nav .item {
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: auto;
+    text-align: center;
+  }
+
+  .nav .item:last-of-type {
+    padding-right: inherit;
+  }
+
+}
+
+@media all and (min-width: 1200px) {
+  .nav .logo img {
+     width: 220px;
+  }
+
+  .nav .item {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}

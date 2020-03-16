@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Nunito', sans-serif;
+	line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0;
+	color: #1C1B1B;
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 900;
+	line-height: 1.2;
+}
+
+h1 {
+	font-size: 28px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-white {
+	color: white;
+}
+
+@media all and (min-width: 800px) {
+	h1 {
+		font-size: 32px;
+	}
+
+	h2 {
+		font-size: 24px;
+	}
+
+	img {
+		max-width: 100%;
+	}
+}

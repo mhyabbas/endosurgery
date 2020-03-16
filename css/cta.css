@@ -1,0 +1,28 @@
+.cta {
+	background-image: url('../assets/image2.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;
+}
+
+.cta h2 {
+	color: white;
+}
+
+@media all and (min-width: 800px) {
+
+	.cta {
+		height: 500px;
+	}
+
+	.cta .container, .cta .row {
+		height: 100%;
+	}
+
+	.cta .row {
+		display: flex;
+		align-items: center;
+	}
+
+}

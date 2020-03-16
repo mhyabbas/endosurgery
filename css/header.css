@@ -1,0 +1,35 @@
+header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+	height: 500px;
+	background-image: url('../assets/image1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+header .container, header .row {
+	height: 100%;
+}
+
+header .row {
+	display: flex;
+	align-items: center;
+}
+
+header h1, header h2 {
+	color: white;
+}
+
+header h2 {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 400;
+}
+
+@media all and (min-width: 800px) {
+
+	header {
+		height: 700px;
+	}
+
+}
